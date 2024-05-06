@@ -47,7 +47,7 @@ public class HelloController {
 	}
 	
 	//Post
-	@PostMapping(value="/form_input1")
+	@PostMapping(value="/form")
 	public ModelAndView input1(String word) {
 		
 		ModelAndView mv = new ModelAndView("hello");
